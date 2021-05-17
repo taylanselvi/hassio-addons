@@ -1,6 +1,7 @@
 {
   "name": "Hello Realm",
   "version": "0.0.6",
+  "image": "a2i2/hello-realm:0.0.6-{arch}",
   "slug": "hello-realm",
   "description": "Hello Realm!",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
