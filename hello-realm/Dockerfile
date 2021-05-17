@@ -14,6 +14,7 @@ RUN apk add --no-cache build-base cmake nodejs-npm && \
 
 # Copy source/executables.
 COPY index.js /
+COPY realm-util.js /
 COPY run.sh /
 RUN chmod a+x /run.sh
 
