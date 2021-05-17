@@ -8,7 +8,7 @@ ENV LANG C.UTF-8
 
 # Install dependencies.
 COPY package.json /
-RUN apk add --no-cache build-base cmake nodejs-npm && \
+RUN apk add --no-cache build-base libc6-compat gcompat cmake nodejs-npm &&
     npm install cmake-js && \
     npm install
 
