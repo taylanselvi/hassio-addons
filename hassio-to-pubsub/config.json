@@ -1,0 +1,18 @@
+{
+  "name": "Home Assistant to Pub/Sub",
+  "version": "0.1.0",
+  "slug": "hassio-to-pubsub",
+  "description": "Publishes Home Assistant events to Google Pub/Sub",
+  "arch": ["aarch64"],
+  "startup": "application",
+  "boot": "auto",
+  "homeassistant_api": true,
+  "options": {
+    "house_id": null,
+    "service_account_json": null
+  },
+  "schema": {
+    "house_id": "str",
+    "service_account_json": "str"
+  }
+}
