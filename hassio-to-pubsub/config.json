@@ -1,6 +1,6 @@
 {
   "name": "Home Assistant to Pub/Sub",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "slug": "hassio-to-pubsub",
   "description": "Publishes Home Assistant events to Google Pub/Sub",
   "arch": ["aarch64"],
