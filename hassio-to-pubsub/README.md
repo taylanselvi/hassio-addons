@@ -17,7 +17,7 @@ This add-on is currently for internal use only and requires access to a private 
 
 Two configuration values are required before running this add-on:
 
-* `house_id`: Unique identifier for your house.
+* `home_id`: Unique identifier for your home.
 * `service_account_json`: Contents of a GCP service account with `Pub/Sub Publisher` access to the `a2i2-ua-smart-home` project.
 
 ## Building
