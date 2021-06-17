@@ -20,9 +20,11 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Publish
         uses: home-assistant/builder@master
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         with:
           args: |
             --all \
             --target hello-a2i2 \
-            --docker-hub ${{ secrets.DOCKER_USERNAME }} \
+            --docker-hub $DOCKER_USERNAME \
             --image hello-a2i2
