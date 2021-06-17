@@ -24,4 +24,4 @@ jobs:
           args: |
             --all \
             --target hello-a2i2 \
-            --docker-hub taylanselvi
+            --docker-hub taylanselvi/hello-a2i2
