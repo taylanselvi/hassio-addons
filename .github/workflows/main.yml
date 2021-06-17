@@ -23,5 +23,5 @@ jobs:
         with:
           args: |
             --all \
-            --target addon-folder \
+            --target hello-a2i2 \
             --docker-hub taylanselvi
